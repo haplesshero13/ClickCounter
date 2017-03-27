@@ -5,6 +5,8 @@ class ClickerViewController: UIViewController {
     @IBOutlet weak var incrementButton: UIButton!
     var model: Model!
 
+    // MARK: - Initializers
+
     init(_ model: Model) {
         super.init(nibName: "\(ClickerViewController.self)", bundle: nil)
         self.model = model
@@ -14,17 +16,23 @@ class ClickerViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 
-    @IBAction func incrementCounter(_ sender: Any) {
-        model = Model.incrementCounter(model)
-
-        modelDidUpdate()
-    }
+    // MARK: - Lifecycle Methods
 
     override func viewWillAppear(_ animated: Bool) {
         self.incrementButton.accessibilityIdentifier = "incrementButton"
 
         modelDidUpdate()
     }
+
+    // MARK: - Interface Actions
+
+    @IBAction func incrementCounter(_ sender: Any) {
+        model = Model.incrementCounter(model)
+
+        modelDidUpdate()
+    }
+
+    // MARK: - Private
 
     private func modelDidUpdate() {
         counterLabel.text = "\(model.counter)"

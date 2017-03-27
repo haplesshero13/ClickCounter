@@ -18,6 +18,8 @@
 		A18F1C311E898F1500FA4338 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18F1C301E898F1500FA4338 /* Quick.framework */; };
 		A18F1C321E898F1E00FA4338 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18F1C2E1E898F1100FA4338 /* Nimble.framework */; };
 		A18F1C331E898F1E00FA4338 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18F1C301E898F1500FA4338 /* Quick.framework */; };
+		A18F1C5E1E8994B800FA4338 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F1C5D1E8994B800FA4338 /* Model.swift */; };
+		A18F1C701E89959200FA4338 /* ModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F1C6F1E89959200FA4338 /* ModelSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,13 +74,10 @@
 		A18F1BE91E89878400FA4338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A18F1BF71E8988F900FA4338 /* ClickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickerViewController.swift; sourceTree = "<group>"; };
 		A18F1BF81E8988F900FA4338 /* ClickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClickerViewController.xib; sourceTree = "<group>"; };
-		A18F1C1F1E898B9B00FA4338 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Vendor/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
-		A18F1C211E898BA100FA4338 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Vendor/Quick/build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
-		A18F1C231E898BA900FA4338 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Vendor/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
-		A18F1C241E898BA900FA4338 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Vendor/Quick/build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
-		A18F1C271E898D2F00FA4338 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A18F1C2E1E898F1100FA4338 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../../Library/Developer/Xcode/DerivedData/ClickCounter-bystevcxbledhlakguhmjvagnbti/Build/Products/Debug-iphonesimulator/Nimble.framework"; sourceTree = "<group>"; };
 		A18F1C301E898F1500FA4338 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../../Library/Developer/Xcode/DerivedData/ClickCounter-bystevcxbledhlakguhmjvagnbti/Build/Products/Debug-iphonesimulator/Quick.framework"; sourceTree = "<group>"; };
+		A18F1C5D1E8994B800FA4338 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = AppModel/Model.swift; sourceTree = "<group>"; };
+		A18F1C6F1E89959200FA4338 /* ModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +112,7 @@
 		A18F1BBB1E89878400FA4338 = {
 			isa = PBXGroup;
 			children = (
+				A18F1C5C1E89949700FA4338 /* AppModel */,
 				A18F1BC61E89878400FA4338 /* ClickCounter */,
 				A18F1BDB1E89878400FA4338 /* ClickCounterTests */,
 				A18F1BE61E89878400FA4338 /* ClickCounterUITests */,
@@ -134,12 +134,11 @@
 		A18F1BC61E89878400FA4338 /* ClickCounter */ = {
 			isa = PBXGroup;
 			children = (
-				A18F1BC71E89878400FA4338 /* AppDelegate.swift */,
-				A18F1BF71E8988F900FA4338 /* ClickerViewController.swift */,
-				A18F1BF81E8988F900FA4338 /* ClickerViewController.xib */,
-				A18F1BCE1E89878400FA4338 /* Assets.xcassets */,
-				A18F1BD01E89878400FA4338 /* LaunchScreen.storyboard */,
 				A18F1BD31E89878400FA4338 /* Info.plist */,
+				A18F1BC71E89878400FA4338 /* AppDelegate.swift */,
+				A18F1BCE1E89878400FA4338 /* Assets.xcassets */,
+				A18F1C341E89939800FA4338 /* Controllers */,
+				A18F1BD01E89878400FA4338 /* LaunchScreen.storyboard */,
 			);
 			path = ClickCounter;
 			sourceTree = "<group>";
@@ -148,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				A18F1BDC1E89878400FA4338 /* AppDelegateSpec.swift */,
+				A18F1C6E1E89957900FA4338 /* AppModel */,
 				A18F1BDE1E89878400FA4338 /* Info.plist */,
 			);
 			path = ClickCounterTests;
@@ -167,13 +167,33 @@
 			children = (
 				A18F1C301E898F1500FA4338 /* Quick.framework */,
 				A18F1C2E1E898F1100FA4338 /* Nimble.framework */,
-				A18F1C271E898D2F00FA4338 /* Foundation.framework */,
-				A18F1C231E898BA900FA4338 /* Nimble.framework */,
-				A18F1C241E898BA900FA4338 /* Quick.framework */,
-				A18F1C211E898BA100FA4338 /* Quick.framework */,
-				A18F1C1F1E898B9B00FA4338 /* Nimble.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A18F1C341E89939800FA4338 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A18F1BF71E8988F900FA4338 /* ClickerViewController.swift */,
+				A18F1BF81E8988F900FA4338 /* ClickerViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A18F1C5C1E89949700FA4338 /* AppModel */ = {
+			isa = PBXGroup;
+			children = (
+				A18F1C5D1E8994B800FA4338 /* Model.swift */,
+			);
+			name = AppModel;
+			sourceTree = "<group>";
+		};
+		A18F1C6E1E89957900FA4338 /* AppModel */ = {
+			isa = PBXGroup;
+			children = (
+				A18F1C6F1E89959200FA4338 /* ModelSpec.swift */,
+			);
+			path = AppModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18F1C5E1E8994B800FA4338 /* Model.swift in Sources */,
 				A18F1BF91E8988F900FA4338 /* ClickerViewController.swift in Sources */,
 				A18F1BC81E89878400FA4338 /* AppDelegate.swift in Sources */,
 			);
@@ -324,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18F1C701E89959200FA4338 /* ModelSpec.swift in Sources */,
 				A18F1BDD1E89878400FA4338 /* AppDelegateSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

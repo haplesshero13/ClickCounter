@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "absolute:/Users/dsulliv5/Documents/workspace/ClickCounter/ClickCounter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Vendor/Quick/Quick.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Vendor/Quick/Externals/Nimble/Nimble.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -266,7 +266,7 @@
 				TargetAttributes = {
 					A18F1BC31E89878400FA4338 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 59SF6AC4RX;
+						DevelopmentTeam = S598LCKBB9;
 						ProvisioningStyle = Automatic;
 					};
 					A18F1BD71E89878400FA4338 = {
@@ -482,7 +482,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 59SF6AC4RX;
+				DEVELOPMENT_TEAM = S598LCKBB9;
 				INFOPLIST_FILE = ClickCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.clicker.counter.ClickCounter;
@@ -495,7 +495,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 59SF6AC4RX;
+				DEVELOPMENT_TEAM = S598LCKBB9;
 				INFOPLIST_FILE = ClickCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.clicker.counter.ClickCounter;

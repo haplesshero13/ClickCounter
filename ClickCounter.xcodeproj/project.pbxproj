@@ -14,12 +14,16 @@
 		A18F1BE81E89878400FA4338 /* ClickCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F1BE71E89878400FA4338 /* ClickCounterUITests.swift */; };
 		A18F1BF91E8988F900FA4338 /* ClickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F1BF71E8988F900FA4338 /* ClickerViewController.swift */; };
 		A18F1BFA1E8988F900FA4338 /* ClickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A18F1BF81E8988F900FA4338 /* ClickerViewController.xib */; };
-		A18F1C2F1E898F1100FA4338 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18F1C2E1E898F1100FA4338 /* Nimble.framework */; };
-		A18F1C311E898F1500FA4338 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18F1C301E898F1500FA4338 /* Quick.framework */; };
-		A18F1C321E898F1E00FA4338 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18F1C2E1E898F1100FA4338 /* Nimble.framework */; };
-		A18F1C331E898F1E00FA4338 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18F1C301E898F1500FA4338 /* Quick.framework */; };
 		A18F1C5E1E8994B800FA4338 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F1C5D1E8994B800FA4338 /* Model.swift */; };
 		A18F1C701E89959200FA4338 /* ModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F1C6F1E89959200FA4338 /* ModelSpec.swift */; };
+		BB8C33401E8A315B00D43A26 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8C333D1E8A2F1200D43A26 /* Quick.framework */; };
+		BB8C33411E8A315D00D43A26 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8C333C1E8A2F1200D43A26 /* Nimble.framework */; };
+		BB8C33481E8A326C00D43A26 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB8C333D1E8A2F1200D43A26 /* Quick.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BB8C33491E8A327000D43A26 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB8C333C1E8A2F1200D43A26 /* Nimble.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BB95C2C01E8A33F300301957 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8C333C1E8A2F1200D43A26 /* Nimble.framework */; };
+		BB95C2C11E8A33F300301957 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8C333D1E8A2F1200D43A26 /* Quick.framework */; };
+		BB95C2C21E8A33F900301957 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB8C333C1E8A2F1200D43A26 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BB95C2C31E8A33F900301957 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB8C333D1E8A2F1200D43A26 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				BB8C33491E8A327000D43A26 /* Nimble.framework in CopyFiles */,
+				BB8C33481E8A326C00D43A26 /* Quick.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +61,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				BB95C2C21E8A33F900301957 /* Nimble.framework in CopyFiles */,
+				BB95C2C31E8A33F900301957 /* Quick.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,10 +82,10 @@
 		A18F1BE91E89878400FA4338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A18F1BF71E8988F900FA4338 /* ClickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickerViewController.swift; sourceTree = "<group>"; };
 		A18F1BF81E8988F900FA4338 /* ClickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClickerViewController.xib; sourceTree = "<group>"; };
-		A18F1C2E1E898F1100FA4338 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../../Library/Developer/Xcode/DerivedData/ClickCounter-bystevcxbledhlakguhmjvagnbti/Build/Products/Debug-iphonesimulator/Nimble.framework"; sourceTree = "<group>"; };
-		A18F1C301E898F1500FA4338 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../../Library/Developer/Xcode/DerivedData/ClickCounter-bystevcxbledhlakguhmjvagnbti/Build/Products/Debug-iphonesimulator/Quick.framework"; sourceTree = "<group>"; };
-		A18F1C5D1E8994B800FA4338 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = AppModel/Model.swift; sourceTree = "<group>"; };
+		A18F1C5D1E8994B800FA4338 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A18F1C6F1E89959200FA4338 /* ModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelSpec.swift; sourceTree = "<group>"; };
+		BB8C333C1E8A2F1200D43A26 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		BB8C333D1E8A2F1200D43A26 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A18F1C311E898F1500FA4338 /* Quick.framework in Frameworks */,
-				A18F1C2F1E898F1100FA4338 /* Nimble.framework in Frameworks */,
+				BB8C33411E8A315D00D43A26 /* Nimble.framework in Frameworks */,
+				BB8C33401E8A315B00D43A26 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +109,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A18F1C321E898F1E00FA4338 /* Nimble.framework in Frameworks */,
-				A18F1C331E898F1E00FA4338 /* Quick.framework in Frameworks */,
+				BB95C2C01E8A33F300301957 /* Nimble.framework in Frameworks */,
+				BB95C2C11E8A33F300301957 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +120,6 @@
 		A18F1BBB1E89878400FA4338 = {
 			isa = PBXGroup;
 			children = (
-				A18F1C5C1E89949700FA4338 /* AppModel */,
 				A18F1BC61E89878400FA4338 /* ClickCounter */,
 				A18F1BDB1E89878400FA4338 /* ClickCounterTests */,
 				A18F1BE61E89878400FA4338 /* ClickCounterUITests */,
@@ -137,6 +144,7 @@
 				A18F1BD31E89878400FA4338 /* Info.plist */,
 				A18F1BC71E89878400FA4338 /* AppDelegate.swift */,
 				A18F1BCE1E89878400FA4338 /* Assets.xcassets */,
+				A18F1C5C1E89949700FA4338 /* AppModel */,
 				A18F1C341E89939800FA4338 /* Controllers */,
 				A18F1BD01E89878400FA4338 /* LaunchScreen.storyboard */,
 			);
@@ -165,8 +173,8 @@
 		A18F1C1E1E898B9A00FA4338 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A18F1C301E898F1500FA4338 /* Quick.framework */,
-				A18F1C2E1E898F1100FA4338 /* Nimble.framework */,
+				BB8C333C1E8A2F1200D43A26 /* Nimble.framework */,
+				BB8C333D1E8A2F1200D43A26 /* Quick.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,7 +193,7 @@
 			children = (
 				A18F1C5D1E8994B800FA4338 /* Model.swift */,
 			);
-			name = AppModel;
+			path = AppModel;
 			sourceTree = "<group>";
 		};
 		A18F1C6E1E89957900FA4338 /* AppModel */ = {
@@ -262,7 +270,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Sullivan, Dion (C.)";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					A18F1BC31E89878400FA4338 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -271,13 +279,13 @@
 					};
 					A18F1BD71E89878400FA4338 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 59SF6AC4RX;
+						DevelopmentTeam = S598LCKBB9;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A18F1BC31E89878400FA4338;
 					};
 					A18F1BE21E89878400FA4338 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 59SF6AC4RX;
+						DevelopmentTeam = S598LCKBB9;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A18F1BC31E89878400FA4338;
 					};
@@ -509,12 +517,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 59SF6AC4RX;
+				DEVELOPMENT_TEAM = S598LCKBB9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Vendor/Nimble/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/Vendor/Quick/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ClickCounterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -530,12 +539,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 59SF6AC4RX;
+				DEVELOPMENT_TEAM = S598LCKBB9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Vendor/Nimble/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/Vendor/Quick/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ClickCounterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -550,12 +560,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 59SF6AC4RX;
+				DEVELOPMENT_TEAM = S598LCKBB9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Vendor/Nimble/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/Vendor/Quick/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ClickCounterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -570,12 +581,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 59SF6AC4RX;
+				DEVELOPMENT_TEAM = S598LCKBB9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Vendor/Nimble/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/Vendor/Quick/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ClickCounterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

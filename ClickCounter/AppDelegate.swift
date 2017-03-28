@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  ClickCounter
-//
-//  Created by Sullivan, Dion (C.) on 3/27/17.
-//  Copyright © 2017 Sullivan, Dion (C.). All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
